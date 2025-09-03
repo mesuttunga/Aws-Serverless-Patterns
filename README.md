@@ -67,19 +67,31 @@ Navigate to individual pattern directories for detailed setup instructions.
 
 ```
 aws-serverless-patterns/
+├── README.md
+├── LICENSE
+├── composer.json
+├── .gitignore
 ├── sqs-fanout-messaging/
 │   ├── README.md
 │   ├── email-reader.php
 │   ├── shipping-reader.php
 │   ├── inventory-reader.php
-│   └── architecture.md
-├── lambda-image-processing/
-│   ├── README.md
-│   ├── lambda/
-│   │   └── index.js
-│   ├── terraform/
-│   └── architecture.md
-└── README.md
+│   └── terraform/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       └── README.md
+└── lambda-image-processing/
+    ├── README.md
+    ├── upload.php
+    ├── lambda/
+    │   ├── index.js
+    │   └── package.json
+    └── terraform/
+        ├── main.tf
+        ├── variables.tf
+        ├── outputs.tf
+        └── README.md
 ```
 
 ## 🎯 Use Cases
