@@ -34,7 +34,6 @@ Order Event (SNS/EventBridge)
 - `email-reader.php` - Processes email notification queue
 - `shipping-reader.php` - Handles shipping fulfillment queue  
 - `inventory-reader.php` - Manages inventory update queue
-- `architecture.md` - Detailed architecture documentation
 
 ## 🚀 Running Locally
 
