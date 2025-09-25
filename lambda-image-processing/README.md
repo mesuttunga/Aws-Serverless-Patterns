@@ -40,15 +40,15 @@ S3 Compressed Bucket (yourbucket-s3-compressed)
 ```
 lambda-image-processing/
 ├── README.md
+├── upload.php
 ├── lambda/
 │   ├── index.js           # Lambda handler
-│   ├── package.json       # Dependencies
-│   └── layer/             # Lambda layer (Sharp)
-├── terraform/
-│   ├── main.tf           # Infrastructure definition
-│   ├── variables.tf      # Input variables
-│   └── outputs.tf        # Stack outputs
-└── architecture.md       # Detailed design
+│   └── package.json       # Dependencies
+└── terraform/
+    ├── main.tf           # Infrastructure definition
+    ├── variables.tf      # Input variables
+    ├── outputs.tf        # Stack outputs
+    └── README.md
 ```
 
 ## 🚀 Deployment
@@ -233,4 +233,4 @@ For 10,000 images/month (avg 2MB each):
 ---
 
 **Pattern Status:** Production-tested ✅  
-**Last Updated:** September 2025  
+**Last Updated:** September 2025
