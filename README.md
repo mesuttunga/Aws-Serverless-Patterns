@@ -1,6 +1,6 @@
 # AWS Serverless Patterns
 
-Production-ready reference implementations for AWS serverless architecture patterns. Each pattern demonstrates event-driven design, decoupled components, and infrastructure as code principles.
+Production-ready reference implementations for AWS serverless architecture patterns. Each pattern demonstrates event-driven design, decoupled components and infrastructure as code principles.
 
 ![AWS](https://img.shields.io/badge/AWS-Serverless-orange)
 ![Lambda](https://img.shields.io/badge/Lambda-Node.js_|_Python-blue)
@@ -11,7 +11,7 @@ Production-ready reference implementations for AWS serverless architecture patte
 ### 🔄 SQS Fanout Messaging Pattern
 **Path:** [`/sqs-fanout-messaging`](./sqs-fanout-messaging)
 
-Multi-queue processing system demonstrating SQS fanout pattern with independent queue readers for email notifications, shipping fulfillment, and inventory management.
+Multi-queue processing system demonstrating SQS fanout pattern with independent queue readers for email notifications, shipping fulfillment and inventory management.
 
 **Technologies:** Amazon SQS, PHP, CloudWatch  
 **Use Case:** Decoupled order processing workflow  

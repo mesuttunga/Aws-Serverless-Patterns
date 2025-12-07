@@ -1,0 +1,22 @@
+{
+  "name": "lambda-image-processor",
+  "version": "1.0.0",
+  "description": "S3 event-driven image processing Lambda function",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.400.0"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "s3",
+    "image-processing",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,6 +1,6 @@
 # SQS Fanout Messaging Pattern
 
-Demonstrates a decoupled order processing system using Amazon SQS with independent queue consumers for email notifications, shipping fulfillment, and inventory management.
+Demonstrates a decoupled order processing system using Amazon SQS with independent queue consumers for email notifications, shipping fulfillment and inventory management.
 
 ## 🏗️ Architecture
 
